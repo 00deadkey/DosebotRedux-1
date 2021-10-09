@@ -13,7 +13,7 @@ exports.run = (client, message, args) => {
         .send(
           "Take approximately **" +
             Math.ceil(y / 10) * 10 +
-            "%** of the drug to reach full effects.\nWarning: Negative effects may be amplified with a high dose of a psychedelic.\n\nhttp://i47.tinypic.com/2qvcw79.jpg"
+            "%** of the drug to reach full effects.\nWarning: Negative effects may be amplified with a high dose of a psychedelic.\n\n", { files: ["./assets/mascot.png"] }
         )
         .catch(console.error);
     } else {
@@ -21,14 +21,14 @@ exports.run = (client, message, args) => {
         .send(
           "Take approximately " +
             Math.ceil(y / 10) * 10 +
-            "% of the drug to reach full effects.\n\nhttp://i47.tinypic.com/2qvcw79.jpg"
+            "% of the drug to reach full effects.\n\nh", { files: ["./assets/mascot.png"] }
         )
         .catch(console.error);
     }
   } else {
     message.channel
       .send(
-        "You should not have a tolerance, take 100% of desired dosage.\n\nhttp://i47.tinypic.com/2qvcw79.jpg"
+          "You should not have a tolerance, take 100% of desired dosage.\n\n", { files: ["./assets/mascot.png"] }
       )
       .catch(console.error);
   }
