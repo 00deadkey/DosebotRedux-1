@@ -17,7 +17,7 @@ The **drug abuse epidemic** that has been sweeping the the United States has cos
 
 ## Contributors
 
-This project is maintained by members of the [dosebotredux organization](https://github.com/dosebotredux) on Github.
+This project is maintained by members of the [dosebotredux organization, and 00deadkey](https://github.com/dosebotredux, and https://DosebotRedux-Fork) on Github.
 
 ## Usage
 
@@ -25,8 +25,10 @@ This project is maintained by members of the [dosebotredux organization](https:/
 2.	`npm install` to download dependencies
 3.	`cp .env.sample .env` and add your bot's API token. example; `DISCORD_API_TOKEN=<yourtokenhere>`
 4.	`node bot.js` to start the bot.
--Alternatively
-3.  You can start the bot by issuing `DISCORD_API_TOKEN=<yourtokenhere> node bot.js` to start the bot.
+
+## Alternatively
+
+ You can start the bot by issuing `DISCORD_API_TOKEN=<yourtokenhere> node bot.js` to start the bot.
 
 ## Invite DoseBot Redux to your server!
 
