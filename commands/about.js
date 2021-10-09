@@ -10,7 +10,7 @@ exports.run = (client, message, args) => {
 
       It was created with the goal of raising awareness of harm reduction best practices, as well as the Subjective Effect Index. For a complete list of commands type \'--help\'.
 
-      For more information about DoseBot Redux, see [our page on Effect Index](https://effectindex.com/dosebot).`
+      For more information about DoseBot Redux, see [our page on GitHub](https://github.com/dosebotredux/DosebotRedux).`
     );
 
   message.channel.send({ embed });
