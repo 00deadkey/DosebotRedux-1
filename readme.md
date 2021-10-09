@@ -23,7 +23,7 @@ This project is maintained by members of the [dosebotredux organization](https:/
 
 1.  Clone repo
 2.	`npm install` to download dependencies
-3.	`cp .env.sample .env` and add your bot's API token. example; DISCORD_API_TOKEN=<yourtokenhere>'
+3.	`cp .env.sample .env` and add your bot's API token. example; `DISCORD_API_TOKEN=<yourtokenhere>`
 4.	`node bot.js` to start the bot.
 -Alternatively
 3.  You can start the bot by issuing `DISCORD_API_TOKEN=<yourtokenhere> node bot.js` to start the bot.
