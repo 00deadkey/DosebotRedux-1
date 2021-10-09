@@ -10,7 +10,7 @@ The **drug abuse epidemic** that has been sweeping the the United States has cos
 
 - Substance harm reduction information
 - Combination safety information
-- Role management system
+- Role management system (Roles you wish to use will need to be manually added by an administrator.)
 - Effect information
 - Tolerance calculators
 - And more! Say `--help` for the full command list.
@@ -22,8 +22,11 @@ This project is maintained by members of the [dosebotredux organization](https:/
 ## Usage
 
 1.  Clone repo
-2.  `npm install` to download dependencies
-3.  `DISCORD_API_TOKEN=xxx node bot.js` to start bot
+2.	`npm install` to download dependencies
+3.	`cp .env.sample .env` and add your bot's API token. example; DISCORD_API_TOKEN=<yourtokenhere>'
+4.	`node bot.js` to start the bot.
+-Alternatively
+3.  You can start the bot by issuing `DISCORD_API_TOKEN=<yourtokenhere> node bot.js` to start the bot.
 
 ## Invite DoseBot Redux to your server!
 
