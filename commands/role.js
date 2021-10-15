@@ -23,9 +23,9 @@ function restoreNickname(guild, user) {
 
   if (user.displayName.includes('|')) {
     let nickTokens = user.displayName.split('|');
-    return message.member.setNickname(nickTokens[0]);
+    return user.setNickname(nickTokens[0]);
   } else {
-    return new Promise((resolve) => resolve());
+      return new Promise((resolve) => resolve());
   }
 }
 
